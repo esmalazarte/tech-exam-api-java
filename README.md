@@ -124,3 +124,8 @@ Created by: Elijah Malazarte
     "message": "Product deleted successfully"
 }
 ```
+
+## Tests
+Tests are done for each endpoint. See `src/test/java/com/example/tech_exam_api_java/controller/ProductControllerTest.java` for test conditions. Database states are recorded after Create, Update, and Delete operations (with added delays to take screenshots):   
+![Tests](screenshots/tests.jpg)
+![DB State](screenshots/dbstate.jpg)
